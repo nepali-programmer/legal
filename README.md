@@ -7,6 +7,10 @@ what app stores and payment processors require.
 | Product | Document | URL |
 | --- | --- | --- |
 | PinData (Chrome extension) | Privacy policy | https://nepali-programmer.github.io/legal/pindata/privacy.html |
+| CV Maker & PDF Editor (Android, iOS) | Privacy policy | https://nepali-programmer.github.io/legal/pdf-tool/privacy.html |
+| CV Maker & PDF Editor (Android, iOS) | Terms of use | https://nepali-programmer.github.io/legal/pdf-tool/terms.html |
+| CV Maker & PDF Editor (Android, iOS) | Support | https://nepali-programmer.github.io/legal/pdf-tool/support.html |
+| CV Maker & PDF Editor (Android, iOS) | Product page (marketing URL) | https://nepali-programmer.github.io/legal/pdf-tool/ |
 | Podly (Android app) | Privacy policy | https://nepali-programmer.github.io/legal/podly/privacy.html |
 | Podly (Android app) | Terms of use | https://nepali-programmer.github.io/legal/podly/terms.html |
 
@@ -20,3 +24,7 @@ what app stores and payment processors require.
   updated in the same change.
 - Podly's documents are authored directly here (`podly/*.md` is the source, `podly/*.html` the
   published copy); update both in the same change.
+- CV Maker & PDF Editor's pages are written as Markdown (`pdf-tool/*.md`) and
+  rendered to the matching `.html`; edit the Markdown and regenerate both in
+  the same change. The app (`pdf_tool` repository, `AppConfig`) and both store
+  listings point at the `.html` URLs.
